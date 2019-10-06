@@ -2,7 +2,7 @@ from skpy import Skype
 from skpy import SkypeTextMsg
 import re
 
-sk = Skype(user = "oneteam.dev", pwd = "pTk`rD*}wKY#IGVj")
+sk = Skype(user = "oneteam.dev", pwd = "yourpassword")
 
 for con in sk.contacts["live:3e61b0bd8642cb01"].chat.getMsgs():
     if con.type == "RichText":
